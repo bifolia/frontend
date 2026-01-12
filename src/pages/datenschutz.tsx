@@ -20,7 +20,7 @@ const Datenschutz: FunctionComponent<PageProps<Data>> = ({
   const body: Component[] = [
     {
       strapi_component: ComponentKind.Text,
-      content: { data: { content } },
+      content: content,
       is_large: false,
       layout: { position: Position.SemiLeft, len: 2 },
       marginless: false,
