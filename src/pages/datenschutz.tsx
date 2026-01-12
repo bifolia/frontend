@@ -8,7 +8,7 @@ import { SEO } from '../components/SEO'
 type Data = {
   strapiDatenschutz: {
     description: string
-    content: string
+    content: { data: { content: string } }
   }
 }
 
