@@ -4,7 +4,6 @@ export enum Page {
   Projekte,
   Philosophie,
   Wir,
-  Journal,
 }
 
 export enum Position {
@@ -63,17 +62,6 @@ export type Text = {
 }
 
 export type Component = Image | Table | Text
-
-type Author = {
-  name: string
-}
-
-export type JournalEntry = {
-  title: string
-  date: string
-  authors: Author[] | null
-  body: Component[]
-}
 
 export type Project = {
   id: string
