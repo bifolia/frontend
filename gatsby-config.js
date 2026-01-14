@@ -55,16 +55,6 @@ module.exports = {
             cover: '*',
             body,
           }),
-          entity('text', {
-            title: '*',
-            date: '*',
-            authors: {
-              populate: {
-                name: '*',
-              },
-            },
-            body,
-          }),
         ],
         singleTypes: [
           page('datenschutz', { content: '*' }),
@@ -77,7 +67,6 @@ module.exports = {
           }),
           page('gartenentwicklung', { body }),
           page('homepage', { body }),
-          page('journal'),
           page('pflanzplanung', { body }),
           page('projekte'),
           page('raumgestaltung', { body }),

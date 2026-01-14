@@ -31,11 +31,6 @@ const Philosophie: FunctionComponent<PageProps<Data>> = ({
     <Body components={strapiPflanzplanung.body} />
     <Body components={strapiGartenentwicklung.body} />
 
-    {/* <div className="Philosophie__Gartengedanken">
-      <p>
-        Lesen Sie mehr in unseren <Link to="/journal">Gartengedanken</Link>.
-      </p>
-    </div> */}
   </Layout>
 )
 
